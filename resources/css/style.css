@@ -18,6 +18,10 @@ header {
   position: fixed;
   z-index: 1;
   border-bottom: 1px solid seashell;
+  /* for some reason, the header is offset without Left:0px; */
+  left: 0px;
+  right: 0px;
+  padding-left: 10px;
 }
 
 .logo img {
@@ -27,7 +31,11 @@ header {
 }
 
 header nav {
-  
+  margin-right: 20px;
+}
+
+header span {
+  padding: 10px;
 }
 
 footer {
