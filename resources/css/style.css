@@ -73,27 +73,62 @@ h4 {
   padding-top: 62px;
 }
 
-.mission {
+#mission {
   display: flex;
   height: 700px;
   width: 1200px;
   background-image: url('../images/img-mission-background.jpg');
+  background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
 }
 
-.overlay {
+#mission .overlay {
   padding: 10px;
   width: 100%;
   background-color: black;
 }
 
-.overlay h2 {
+#mission .overlay h2 {
   /* Somewhat unnecessary but I tried to match the example provided as closely as possible */
   padding-bottom: 15px;
 }
 
-.teas {
+#teas {
   padding: 75px 0px;
   width: 1000px;
+}
+
+#teas h2,
+#teas h4 {
+  padding-bottom: 25px;
+}
+
+.collection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.featureditem {
+  padding: 5px;
+}
+
+.featureditem img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.featureditem h4 {
+  padding-bottom: 5px;
+}
+
+#locations {
+  display: flex;
+  height: 500px;
+  width: 1200px;
+  flex-shrink: 1;
+  background-image: url('../images/img-locations-background.jpg');
+  background-repeat: no-repeat;
 }
